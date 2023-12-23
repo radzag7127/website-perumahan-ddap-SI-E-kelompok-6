@@ -7,14 +7,14 @@ export const dataTestimoni = [
     imageSrc: "/testi1.jpg",
   },
   {
-    name: "Satrio Wibowo",
+    name: "Ratna Sari",
     title: "Pembeli Griya Candra Kirana",
     testimonial:
       "Memilih Griya Candra Kirana adalah keputusan terbaik saya. Kualitas bangunan dan lingkungan yang asri menjadikan tempat ini sempurna untuk kami yang mencari kedamaian di tengah kota.",
     imageSrc: "/testi2.jpg",
   },
   {
-    name: "Ratna Sari",
+    name: "Kevin Kaslana",
     title: "Pembeli Griya Permata Hijau",
     testimonial:
       "Pelayanan yang diberikan Griya Permata Hijau sangat memuaskan. Keamanan 24 jam dan fasilitas yang modern membuat saya merasa investasi saya aman dan menguntungkan.",
