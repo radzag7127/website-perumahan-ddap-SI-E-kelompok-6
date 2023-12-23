@@ -14,7 +14,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
   imageSrc,
 }) => {
   return (
-    <div className="flex flex-col items-center bg-gray-300 p-6 shadow-md m-5 sm:m-2 sm:flex-[0_0_100%] md:flex-[0_0_50%] xl:flex-[0_0_33%]">
+    <div className="flex flex-col items-center bg-gray-300 p-6 shadow-md m-5 sm:m-2 flex-[0_0_100%] sm:flex-[0_0_100%] md:flex-[0_0_50%] xl:flex-[0_0_33%]">
       <img
         src={imageSrc}
         alt={name}
