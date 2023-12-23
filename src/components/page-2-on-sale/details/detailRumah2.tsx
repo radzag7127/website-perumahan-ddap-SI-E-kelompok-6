@@ -46,9 +46,11 @@ const RumahDetail2: React.FC = () => {
             {propertyDetail.sqft}
           </div>
           <div className="flex justify-center">
-            <button className="bg-green-800 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded">
-              INQUIRE NOW
-            </button>
+            <a href="/contact">
+              <button className="bg-green-800 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded">
+                INQUIRE NOW
+              </button>
+            </a>
           </div>
 
           <div className="text-center my-8">
