@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const propertyDetail = {
   imageUrl: "/rumah3.svg",
   address: "Jl. Adi Sucipto, Solo",
@@ -12,16 +12,24 @@ const propertyDetail = {
 
 const RumahDetail4: React.FC = () => {
   return (
-    <div 
+    <div
       className="bg-white text-gray-800"
       style={{
         backgroundImage: 'url("/background.svg")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
-      <div className="flex justify-center items-center">
-        <img src={propertyDetail.imageUrl} alt="Property" />
+      <div
+        className="flex justify-center items-center relative"
+        style={{ height: "640px" }}
+      >
+        <Image
+          src={propertyDetail.imageUrl}
+          alt="Property"
+          layout="fill"
+          objectFit="cover"
+        />
       </div>
 
       <div className="flex flex-col items-center justify-center w-full xl:w-[1280px]">
@@ -56,7 +64,12 @@ const RumahDetail4: React.FC = () => {
                 rel="noopener noreferrer"
                 className="hover:bg-gray-600 bg-gray-800 p-2 rounded-full"
               >
-                <img src="/facebook.svg" alt="Facebook" className="w-6 h-6" />
+                <Image
+                  src="/facebook.svg"
+                  alt="Facebook"
+                  width={24}
+                  height={24}
+                />
               </a>
               <a
                 href="https://whatsapp.com"
@@ -64,7 +77,12 @@ const RumahDetail4: React.FC = () => {
                 rel="noopener noreferrer"
                 className="hover:bg-gray-600 bg-gray-800 p-2 rounded-full"
               >
-                <img src="/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
+                <Image
+                  src="/whatsapp.svg"
+                  alt="WhatsApp"
+                  width={24}
+                  height={24}
+                />
               </a>
               <a
                 href="https://instagram.com"
@@ -72,7 +90,12 @@ const RumahDetail4: React.FC = () => {
                 rel="noopener noreferrer"
                 className="hover:bg-gray-600 bg-gray-800 p-2 rounded-full"
               >
-                <img src="/instagram.svg" alt="Instagram" className="w-6 h-6" />
+                <Image
+                  src="/instagram.svg"
+                  alt="Instagram"
+                  width={24}
+                  height={24}
+                />
               </a>
             </div>
           </div>

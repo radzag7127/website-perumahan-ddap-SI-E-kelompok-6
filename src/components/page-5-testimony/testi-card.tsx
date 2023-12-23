@@ -22,7 +22,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
       />
       <h5 className="text-lg font-bold">{name}</h5>
       <p className="text-sm text-gray-500 mb-4">{title}</p>
-      <p className="text-sm text-gray-600 text-center">"{testimonial}"</p>
+      <p className="text-sm text-gray-600 text-center">-{testimonial}</p>
     </div>
   );
 };

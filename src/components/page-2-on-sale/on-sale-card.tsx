@@ -1,6 +1,7 @@
 "use client";
 
 import React, { FC } from "react";
+import Image from "next/image";
 
 interface OnSaleCardProps {
   gambar: string;
