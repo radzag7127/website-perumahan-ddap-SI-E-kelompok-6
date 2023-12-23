@@ -8,8 +8,8 @@ const Footer = () => {
           <div>
             <h2 className="mb-6 text-xl font-bold">Tentang Kami</h2>
             <p>
-              Griya Rahayu Group adalah perusahaan properti terdepan di Jawa
-              Tengah yang menyediakan pilihan hunian dan investasi terbaik.
+              Griya Rahayu Group adalah perusahaan properti terdepan di
+              Indonesia yang menyediakan pilihan hunian dan investasi terbaik.
             </p>
           </div>
           <div>
